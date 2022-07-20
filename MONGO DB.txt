@@ -1,0 +1,16 @@
+MONGO DB 
+
+Avvio il server
+
+mongod 
+    --dbpath {path_database} // Specifica il path del DB
+    --fork // mantiene il server in esecuzione anche chiudendo la finestra
+    --logfile // specifica il percorso in cui salvare il logfile
+
+mongo // lancio shell amministrativa per poter partire è necessario che il server sia acceso
+
+COMANDI shell
+> db  // mostra il db in uso
+> show dbs // mostra tutti i db nel sistema
+> use {nomeDB} // cambia il nome del DB
+ 
